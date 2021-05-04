@@ -1,0 +1,49 @@
+.banner{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://image.freepik.com/free-photo/fantasy-sky_90839-278.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+   
+
+}
+
+
+.donation{
+    position: relative;
+    text-align: center;
+    color: #000000;
+    width: 30%;
+    height: 50%;
+    top: 25%;
+    left:35%;
+    opacity: 100%;
+    justify-content: center;
+    text-justify: center;
+    align-items: center;
+}
+
+
+.Org{
+    position:relative;
+    text-align:center;
+    height: 30vh;
+    top: 5%;
+
+}
+
+.org{
+  position:relative;
+  text-align:center;
+}
+
+.component-donate{
+  background-color: #ffffff;
+  margin: 2rem;
+  padding: 2rem;
+  overflow: auto;
+  border-radius: 25px;
+  border: 2px solid #69c3ff;
+  padding: 20px;
+}

@@ -1,0 +1,22 @@
+.countybg{
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("world1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.country-info{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
