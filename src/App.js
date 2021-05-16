@@ -21,7 +21,7 @@ class App extends Component {
     )
   }
 }
-////
+
 const mapStateToProps = state => {
   return {
     isauthenticated: state.token !== null,
@@ -29,7 +29,7 @@ const mapStateToProps = state => {
     user: state.user
   }
 }
-
+//
 const mapDispatchToProps = dispatch => {
   return {
     onTryAutoSignup: () => dispatch(actions.authCheckState())
