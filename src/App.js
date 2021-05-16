@@ -29,7 +29,7 @@ const mapStateToProps = state => {
     user: state.user
   }
 }
-//
+//hahaha
 const mapDispatchToProps = dispatch => {
   return {
     onTryAutoSignup: () => dispatch(actions.authCheckState())
