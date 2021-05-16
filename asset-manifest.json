@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/DisasterBroadcaster1/static/css/main.fc46fff0.chunk.css",
+    "main.js": "/DisasterBroadcaster1/static/js/main.ab5d40a4.chunk.js",
+    "main.js.map": "/DisasterBroadcaster1/static/js/main.ab5d40a4.chunk.js.map",
+    "runtime-main.js": "/DisasterBroadcaster1/static/js/runtime-main.ca62d9e4.js",
+    "runtime-main.js.map": "/DisasterBroadcaster1/static/js/runtime-main.ca62d9e4.js.map",
+    "static/css/2.f15e0525.chunk.css": "/DisasterBroadcaster1/static/css/2.f15e0525.chunk.css",
+    "static/js/2.e0edbb1e.chunk.js": "/DisasterBroadcaster1/static/js/2.e0edbb1e.chunk.js",
+    "static/js/2.e0edbb1e.chunk.js.map": "/DisasterBroadcaster1/static/js/2.e0edbb1e.chunk.js.map",
+    "static/js/3.09e1f34d.chunk.js": "/DisasterBroadcaster1/static/js/3.09e1f34d.chunk.js",
+    "static/js/3.09e1f34d.chunk.js.map": "/DisasterBroadcaster1/static/js/3.09e1f34d.chunk.js.map",
+    "index.html": "/DisasterBroadcaster1/index.html",
+    "static/css/2.f15e0525.chunk.css.map": "/DisasterBroadcaster1/static/css/2.f15e0525.chunk.css.map",
+    "static/css/main.fc46fff0.chunk.css.map": "/DisasterBroadcaster1/static/css/main.fc46fff0.chunk.css.map",
+    "static/js/2.e0edbb1e.chunk.js.LICENSE.txt": "/DisasterBroadcaster1/static/js/2.e0edbb1e.chunk.js.LICENSE.txt",
+    "static/media/004-desertification.5d3c2216.png": "/DisasterBroadcaster1/static/media/004-desertification.5d3c2216.png",
+    "static/media/005-earthquake.fcd09065.png": "/DisasterBroadcaster1/static/media/005-earthquake.fcd09065.png",
+    "static/media/006-burning.b2f4a791.png": "/DisasterBroadcaster1/static/media/006-burning.b2f4a791.png",
+    "static/media/007-flood.fb162544.png": "/DisasterBroadcaster1/static/media/007-flood.fb162544.png",
+    "static/media/012-hurricane.4fa386ba.png": "/DisasterBroadcaster1/static/media/012-hurricane.4fa386ba.png",
+    "static/media/025-tornado.cd32bbe5.png": "/DisasterBroadcaster1/static/media/025-tornado.cd32bbe5.png",
+    "static/media/027-tsunami.cb64ad93.png": "/DisasterBroadcaster1/static/media/027-tsunami.cb64ad93.png",
+    "static/media/030-volcano.cad98d92.png": "/DisasterBroadcaster1/static/media/030-volcano.cad98d92.png",
+    "static/media/Logo.50d7fda1.png": "/DisasterBroadcaster1/static/media/Logo.50d7fda1.png",
+    "static/media/Background.css": "/DisasterBroadcaster1/static/media/overlay3.1807facd.jpg",
+    "static/media/CountryPage.css": "/DisasterBroadcaster1/static/media/world1.fe3e870c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca62d9e4.js",
+    "static/css/2.f15e0525.chunk.css",
+    "static/js/2.e0edbb1e.chunk.js",
+    "static/css/main.fc46fff0.chunk.css",
+    "static/js/main.ab5d40a4.chunk.js"
+  ]
+}
