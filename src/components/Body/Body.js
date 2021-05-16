@@ -57,23 +57,29 @@ class Body extends Component {
   makeDate(date) {
     return new Date(date);
   }
-
+  
   render(){
-    let newss = this.props.newss;
-    let posts = this.props.posts;
+
+    let newss = this.props.newss
+    
+    let randomNews = newss.sort(()=> Math.random()-0.5).slice(0, 5)
+
+    let posts = this.props.posts
+
+    let randomPosts = posts.sort(()=> Math.random()-0.5).slice(0, 3)
 
     let newss_render = '';
     let posts_render = '';
 
-
+    
     if(newss.length > 0){
       newss_render =  
-      <Paper style = {{padding: 10}}>
+      <Paper style = {{padding: 0}}>
                         <Link href="/allnews" variant="body2">
-                          <h1 className = "col-bd1">NEWS</h1>
+                          <h1 className = "col-bd1">NEWS {posts.length}</h1>
                         </Link>
                         <div>
-                        {newss.map(news => 
+                        {randomNews.map(news => 
                           <ul>
                             <div className='component'>
                             <a href={news.url} className = "a">
@@ -138,7 +144,7 @@ class Body extends Component {
                           <div className = "post">
                           {token !== null && token !== undefined ? <Button variant="contained" color="primary" href='/createpost' endIcon={<PublishIcon />}> Make a Post </Button> : ''}
 
-                            {posts.map(post => 
+                            {randomPosts.map(post => 
                               <ul>
                                 <div className='component'>
                                   <Link href={"/post/" + post.id.toString()} color="inherit" variant="body2" style={{ textDecoration:'none'}}>
@@ -154,7 +160,6 @@ class Body extends Component {
                                   <li><img className = "home-media-post" src = {post.media} alt=''/></li>
                                   </Link>
                                   <p>Posted on {this.makeDate(post.date_created).toDateString()}</p>
-
                                   <div>
                                     { user !== null && user.id === post.user_id.id ? <Button href={"/editpost/" + post.id} variant="contained" color="primary" endIcon={<EditIcon />}>
                                       Edit Post
