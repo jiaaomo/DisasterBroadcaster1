@@ -76,7 +76,7 @@ class Body extends Component {
       newss_render =  
       <Paper style = {{padding: 0}}>
                         <Link href="/allnews" variant="body2">
-                          <h1 className = "col-bd1">NEWS {posts.length}</h1>
+                          <h1 className = "col-bd1">NEWS</h1>
                         </Link>
                         <div>
                         {randomNews.map(news => 
